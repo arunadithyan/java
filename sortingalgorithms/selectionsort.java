@@ -1,4 +1,4 @@
-package arun.sortalgorithm;
+package arun.sortingalgorithms;
 
 import java.util.Arrays;
 
