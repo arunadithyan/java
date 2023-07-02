@@ -1,5 +1,5 @@
 package arun.basic;
-import java.util.*;
+import java.util.Arrays;
 
 public class stringdemo {
         public static void main(String[] args) {
