@@ -24,7 +24,7 @@ public class ifelseexample {
         //radix is system number
         //binary -2 ,octal -8 , hexadecimal -16, decimal -10
         String num;
-        System.out.print("Enter a number");
+        System.out.print("Enter a number ");
         num=in.next();
         if(num.matches("[01]+")){
             System.out.println("Binary number radix =2");
@@ -42,5 +42,22 @@ public class ifelseexample {
             System.out.println("Invalid number");
         }
 
+        //finding leap year
+        System.out.print("Enter the year: ");
+        int c = in.nextInt();
+
+        if (c % 4 == 0) {
+            if (c % 100 == 0) {
+                if (c % 400 == 0) {
+                    System.out.println("It's a leap year");
+                } else {
+                    System.out.println("Not a leap year");
+                }
+            } else {
+                System.out.println("It's a leap year");
+            }
+        } else {
+            System.out.println("Not a leap year");
+        }
     }
 }
