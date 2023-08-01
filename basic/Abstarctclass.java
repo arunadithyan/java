@@ -1,4 +1,5 @@
 // Shape.java (Abstract class)
+package arun.basic;
 abstract class Shape {
     // Abstract methods to be implemented by subclasses
     public abstract double getArea();
@@ -6,11 +7,11 @@ abstract class Shape {
 }
 
 // Rectangle.java (Concrete class)
-class Rectangle extends Shape {
+class Rectangle1 extends Shape {
     private double length;
     private double width;
 
-    public Rectangle(double length, double width) {
+    public Rectangle1(double length, double width) {
         this.length = length;
         this.width = width;
     }
@@ -28,10 +29,10 @@ class Rectangle extends Shape {
 }
 
 // Circle.java (Concrete class)
-class Circle extends Shape {
+class Circle1 extends Shape {
     private double radius;
 
-    public Circle(double radius) {
+    public Circle1(double radius) {
         this.radius = radius;
     }
 
@@ -50,8 +51,8 @@ class Circle extends Shape {
 // Main.java (Test the classes)
 public class Abstarctclass{
     public static void main(String[] args) {
-        Shape rectangle = new Rectangle(5, 7);
-        Shape circle = new Circle(3);
+        Shape rectangle = new Rectangle1(5, 7);
+        Shape circle = new Circle1(3);
 
         System.out.println("Rectangle Area: " + rectangle.getArea());
         System.out.println("Rectangle Perimeter: " + rectangle.getPerimeter());
