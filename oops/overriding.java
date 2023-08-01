@@ -1,4 +1,4 @@
-package arun.basic;
+package arun.oops;
 
 class Super{
     public void display(){

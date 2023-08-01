@@ -1,5 +1,5 @@
 // Shape.java (Abstract class)
-package arun.basic;
+package arun.oops;
 abstract class Shape {
     // Abstract methods to be implemented by subclasses
     public abstract double getArea();

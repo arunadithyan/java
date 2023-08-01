@@ -1,4 +1,4 @@
-package arun.basic;
+package arun.oops;
 
 class test{
     public int max (int a,int b){
